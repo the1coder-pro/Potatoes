@@ -3,6 +3,8 @@
 <h1>Potatoes</h1>
 
 <body>
-    <h2>{{PotatoName}}</h2>
-    <img src="{{url_for('images', filename={{PotatoFile}})}}" alt="image">    
+    <h2>{{ potatoName }}</h2>
+    <img src="{{url_for('static', filename= potatoFile )}}" alt="image"> 
+    <form method ="post" action="/">
+        <button type="submit" name="button_a" value="button_a"> random </button>   
 </body>
