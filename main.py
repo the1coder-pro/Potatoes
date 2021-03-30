@@ -13,7 +13,7 @@ potato_family = {
 
 potato_familyName = list(potato_family.keys())
 random_potato = random.choice(potato_familyName)
-potato_familyFile = potato_family[potato_familyName]
+potato_familyFile = potato_family[random_potato]
 
 @app.route("/")
 def home():
