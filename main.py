@@ -11,8 +11,6 @@ potato_family = {
     "Sweet Potato": "Sweet-Potato.png"
 }
 
-
-
 def generateRandomPotato():
     potato_familyName = list(potato_family.keys())
     random_potato = random.choice(potato_familyName)
